@@ -1,16 +1,16 @@
-import p_img1 from './p_img1.png'
-import p_img2_1 from './p_img2_1.png'
-import p_img2_2 from './p_img2_2.png'
-import p_img2_3 from './p_img2_3.png'
-import p_img2_4 from './p_img2_4.png'
-import p_img3 from './p_img3.png'
-import p_img4 from './p_img4.png'
-import p_img5 from './p_img5.png'
-import p_img6 from './p_img6.png'
-import p_img7 from './p_img7.png'
-import p_img8 from './p_img8.png'
-import p_img9 from './p_img9.png'
-import p_img10 from './p_img10.png'
+import p_img1 from './caps.png'
+import p_img2_1 from './kalas.png'
+// import p_img2_2 from './p_img2_2.png'
+// import p_img2_3 from './p_img2_3.png'
+// import p_img2_4 from './p_img2_4.png'
+import p_img3 from './pichoda.png'
+import p_img4 from './Aipan2.png'
+import p_img5 from './sweet.png'
+import p_img6 from './craft.png'
+import p_img7 from './thaal.png'
+import p_img8 from './jewellery.png'
+import p_img9 from './chain.png'
+import p_img10 from './shawl.png'
 import p_img11 from './p_img11.png'
 import p_img12 from './p_img12.png'
 import p_img13 from './p_img13.png'
@@ -56,7 +56,7 @@ import p_img52 from './p_img52.png'
 
 
 import logo from './logo.png'
-import hero_img from './hero_img.png'
+import hero_img from './aipen.png'
 import cart_icon from './cart_icon.png'
 import bin_icon from './bin_icon.png'
 import dropdown_icon from './dropdown_icon.png'
@@ -98,68 +98,69 @@ export const assets = {
 export const products = [
     {
         _id: "aaaaa",
-        name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 100,
+        name: "Traditional Pahadi Cap",
+        description: "A handcrafted woolen cap from the hills of Uttarakhand, known for its vibrant geometric patterns and cultural significance. Worn during festivals, ceremonies, and as a symbol of mountain pride, this cap blends comfort with tradition.",        
+        price: 2,
         image: [p_img1],
-        category: "Women",
-        subCategory: "Topwear",
+        category: "caps",
+        subCategory: "caps",
         sizes: ["S", "M", "L"],
         date: 1716634345448,
         bestseller: true
     },
     {
         _id: "aaaab",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        name: "Handcrafted Pahadi Kalas",
+        description: "A traditional ceremonial pot made from polished brass or copper, featuring hand-engraved designs. Commonly used in Uttarakhand for rituals and decor, this Kalas represents purity, prosperity, and the region’s spiritual legacy.",        
         price: 200,
-        image: [p_img2_1,p_img2_2,p_img2_3,p_img2_4],
-        category: "Men",
-        subCategory: "Topwear",
-        sizes: ["M", "L", "XL"],
+        image: [p_img2_1],
+        category: "utensil",
+        subCategory: "usentil",
+        sizes: ["S", "M", "L"],
         date: 1716621345448,
         bestseller: true
     },
     {
         _id: "aaaac",
-        name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        name: "Traditional Pahadi Pichoda",
+        description: "A sacred garment worn by women in Uttarakhand, featuring saffron fabric with red dot patterns and a swastik symbol. Traditionally worn during weddings, festivals, and pujas, the Pichoda represents devotion, grace, and cultural identity.",
+        
         price: 220,
         image: [p_img3],
-        category: "Kids",
-        subCategory: "Topwear",
+        category: "cloths",
+        subCategory: "scarf",
         sizes: ["S", "L", "XL"],
         date: 1716234545448,
         bestseller: true
     },
     {
         _id: "aaaad",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        name: "Traditional Aipan Artwork",
+        description: "A ritual folk art of Kumaon made using red clay and white rice paste. Aipan is used to decorate homes and altars during festivals and ceremonies, symbolizing prosperity, purity, and devotion. Available in various forms like wall decor and coasters.",        
         price: 110,
         image: [p_img4],
-        category: "Men",
-        subCategory: "Topwear",
+        category: "crafft",
+        subCategory: "drawing",
         sizes: ["S", "M", "XXL"],
         date: 1716621345448,
         bestseller: true
     },
     {
         _id: "aaaae",
-        name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        name: "Pahadi Sweet",
+        description: "Pahadi sweets are traditional desserts from Uttarakhand, made with local ingredients like milk, jaggery, and dry fruits. Popular varieties include Bal Mithai, a fudge made with khoya, and Singori, wrapped in a leaf. These sweets reflect the rustic flavors and rich cultural heritage of the region.",
         price: 130,
         image: [p_img5],
-        category: "Women",
-        subCategory: "Topwear",
+        category: "sweet",
+        subCategory: "sweet",
         sizes: ["M", "L", "XL"],
         date: 1716622345448,
         bestseller: true
     },
     {
         _id: "aaaaf",
-        name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        name: "Traditional Pahadi Handmade Craft",
+        description: "An authentic handcrafted piece created by skilled artisans from the hills of Uttarakhand. Made using natural materials and age-old techniques, this craft reflects the rich cultural heritage, folk traditions, and artistic spirit of the Pahadi region.",
         price: 140,
         image: [p_img6],
         category: "Kids",
@@ -170,20 +171,20 @@ export const products = [
     },
     {
         _id: "aaaag",
-        name: "Men Tapered Fit Flat-Front Trousers",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 190,
+        name: "Pahadi Thaal",
+        description: "A wholesome and authentic food platter from the hills of Uttarakhand, featuring locally sourced ingredients and age-old recipes. This thaal showcases the rich flavors, nutritional balance, and cultural essence of Pahadi cuisine.",
+        price:120,
         image: [p_img7],
-        category: "Men",
-        subCategory: "Bottomwear",
+        category: "utensil",
+        subCategory: "utensil",
         sizes: ["S", "L", "XL"],
         date: 1716621542448,
         bestseller: false
     },
     {
         _id: "aaaah",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        name: "Golden Pahadi Bangles",
+        description: "Exquisite handcrafted bangles inspired by traditional Pahadi designs, made with golden finish and intricate patterns. These bangles reflect the elegance, culture, and timeless beauty of Uttarakhand's hill craftsmanship.",
         price: 140,
         image: [p_img8],
         category: "Men",
@@ -194,8 +195,8 @@ export const products = [
     },
     {
         _id: "aaaai",
-        name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        name: "Handmade Keychain",
+        description: "A Keychain with beautiful drawing  made by artisean with their top skills.",
         price: 100,
         image: [p_img9],
         category: "Kids",
@@ -206,8 +207,8 @@ export const products = [
     },
     {
         _id: "aaaaj",
-        name: "Men Tapered Fit Flat-Front Trousers",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        name: "traditional shawl",
+        description: "A lightweight, usually knitted, shawl, comforatable and lightweight.",
         price: 110,
         image: [p_img10],
         category: "Men",

@@ -14,10 +14,10 @@ const LatestCollection = () => {
   return (
     <div className="my-10">
       <div className="py-8 text-3xl text-center">
-        <Title text1={"LATEST"} text2={"COLLECTIONS"} />
+        <Title text1={"LATEST"} text2={"CREATIONS"}/>
         <p className="w-3/4 m-auto text-xs text-gray-600 sm:text-sm md:text-base">
-          Step into a world of style with our newest collections, carefully
-          curated to bring you the best in fashion, home decor, and more.
+        Step into the charm of the Himalayas with our newest collection—authentic Pahadi crafts, 
+        handmade with love and steeped in the rich traditions of Uttarakhand. From soulful art to timeless home decor, celebrate heritage with every piece.
         </p>
       </div>
 
