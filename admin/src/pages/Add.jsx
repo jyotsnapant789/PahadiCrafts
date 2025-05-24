@@ -166,9 +166,9 @@ const Add = ({ token }) => {
             required
           >
             <option value="">Select Category</option>
-            <option value="Men">Men</option>
-            <option value="Women">Women</option>
-            <option value="Kids">Kids</option>
+            <option value="Aipanart">Aipan Art</option>
+            <option value="Woolenproduct">Woolen Work</option>
+            <option value="DecorativeCrafts">Decorative Crafts</option>
           </select>
         </div>
         <div>
@@ -180,9 +180,9 @@ const Add = ({ token }) => {
             required
           >
             <option value="">Select Sub Category</option>
-            <option value="Topwear">Topwear</option>
-            <option value="Bottomwear">Bottomwear</option>
-            <option value="Winterwear">Winterwear</option>
+             <option value="WallArt">Wall Art</option>
+            <option value="HomeDecor">Home Decor</option>
+            <option value="GiftItems">Gift Items</option>
           </select>
         </div>
         <div>
