@@ -10,7 +10,7 @@ Welcome to the **MERN E-Commerce Website**! This project is a feature-rich e-com
 - **🛍️ Product Exploration**: Browse and search through an extensive product catalog with advanced filtering options.
 - **🛒 Shopping Cart**: Add products to your cart, modify quantities, and proceed to a hassle-free checkout.
 - **💳 Seamless Payments**: Make secure payments using Stripe integration.
-- **📦 Order Management**: View order history, track deliveries, and manage returns with ease.
+- **📦 Order Management**: View or der history, track deliveries, and manage returns with ease.
 
 ### ⚙️ Admin Dashboard:
 
@@ -80,17 +80,17 @@ VITE_BACKEND_URL = "http://localhost:4000"
 <summary><code>/backend/.env</code></summary>
 
 ```env
-MONGODB_URI =
+MONGODB_URI = mongodb+srv://jyotsna:ZOHigrnBjryDq5hr@cluster.y5at2uv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster
 
-CLOUDINARY_API_KEY =
+CLOUDINARY_API_KEY = '553438413973999'
 
-CLOUDINARY_SECRET_KEY =
+CLOUDINARY_SECRET_KEY = 'Wsq7SPT4L98JNQwOkYXoLJt_P1M'
 
-CLOUDINARY_CLOUD_NAME =
+CLOUDINARY_CLOUD_NAME = 'djyu2wyb2'
 
-JWT_SECRET =
+JWT_SECRET = '0ac2178f2de944d1d21d47a964e931324bab5e6bbb6f239c846ad091dd6fe182a32b92cb8f9dd3c1e3d93499f56560f27a0dde16ed01a5440646ac7002053024'
 
-ADMIN_EMAIL = "admin@trendify.com" #For testing only
+ADMIN_EMAIL = "admin@pahadi.com" #For testing only
 
 ADMIN_PASSWORD = "admin@123" #For testing only
 
@@ -102,7 +102,7 @@ ADMIN_PASSWORD = "admin@123" #For testing only
 <summary><code>/frontend/.env</code></summary>
 
 ```env
-VITE_BACKEND_URL = "http://localhost:4000"
+VITE_BACKEND_URL = "http://localhost:8080"
 ```
 
 </details>
