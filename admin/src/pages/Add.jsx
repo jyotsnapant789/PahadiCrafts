@@ -200,7 +200,7 @@ const Add = ({ token }) => {
       <div>
         <p className="mb-2 text-lg font-semibold">Product Sizes</p>
         <div className="flex gap-3">
-          {["S", "M", "L", "XL", "XXL"].map((size) => (
+          {["S", "M", "L"].map((size) => (
             <div
               key={size}
               onClick={() =>

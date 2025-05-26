@@ -1,6 +1,6 @@
-# 🛒 MERN E-Commerce Website
+# 🛒 Kumauni Craft E-commerce application
 
-Welcome to the **MERN E-Commerce Website**! This project is a feature-rich e-commerce application built using the powerful MERN stack, complete with an intuitive user-facing store and an all-encompassing admin dashboard.
+Welcome to the **Kumauni Craft**! This project is a feature-rich e-commerce application built using the powerful MERN stack, complete with an intuitive user-facing store and an all-encompassing admin dashboard.
 
 ## ✨ Features
 
@@ -10,7 +10,7 @@ Welcome to the **MERN E-Commerce Website**! This project is a feature-rich e-com
 - **🛍️ Product Exploration**: Browse and search through an extensive product catalog with advanced filtering options.
 - **🛒 Shopping Cart**: Add products to your cart, modify quantities, and proceed to a hassle-free checkout.
 - **💳 Seamless Payments**: Make secure payments using Stripe integration.
-- **📦 Order Management**: View or der history, track deliveries, and manage returns with ease.
+- **📦 Order Management**: View order history, track deliveries, and manage returns with ease.
 
 ### ⚙️ Admin Dashboard:
 
@@ -51,11 +51,6 @@ Make sure you have the following installed on your machine:
 - [Node.js](https://nodejs.org/en)
 - [NPM](https://www.npmjs.com/) (Node Package Manager)
 
-**Cloning the Repository**
-
-```bash
-git clone https://github.com/MenathNDGD/MERN-Ecommerce.git
-```
 
 **Installation**
 

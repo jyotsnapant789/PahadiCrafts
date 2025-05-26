@@ -24,7 +24,7 @@ const App = () => {
   }, [token]);
 
   const myStyle = {
-      backgroundImage: "url('https://tse4.mm.bing.net/th?id=OIP.in451XOJJi6FIC0B5xKrrAHaHD&pid=Api&P=0&h=180')",
+      backgroundImage: "url('https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-embroidery-traditional-crafts-design-poster-image_196211.jpg')",
       height: "100vh",
       marginTop: "-70px",
       fontSize: "20px",
